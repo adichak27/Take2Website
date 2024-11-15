@@ -43,7 +43,7 @@
         dots:true,
         margin:30,
         autoplay:true,
-
+        
       })
       
       logo_carouael.owlCarousel({

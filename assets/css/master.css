@@ -107,7 +107,7 @@ SPACE CSS
   padding-bottom: 70px;
 }
 .space-100 {
-  height: 100px;
+  height: 200px;
 }
 .space-50 {
   height: 50px;
@@ -616,10 +616,25 @@ img.feature_img_left {
   left: 17%;
   top: 18%;
 }
+.homefeed img {
+  max-width: 30%; /* Ensures the image doesn’t exceed the container width */
+  width: 20%; /* Adjusts the default width */
+  height: auto; /* Maintains the aspect ratio */
+  margin-left: 300px; 
+  margin-top: -600px;
+}
+
+.feature3_img_left img {
+  max-width: 180%; /* Ensures the image doesn’t exceed the container width */
+  width: 180%; /* Adjusts the default width */
+  height: auto; /* Maintains the aspect ratio */
+  margin-left: -200px; 
+  margin-top: -130px;
+}
 
 .feature3_img_left {
   position: absolute;
-  max-width: 550px;
+  max-width: 1050px;
   top: 14%;
   left: 17%;
 }
@@ -639,6 +654,14 @@ img.shape31 {
   left: -33%;
   bottom: 0;
   z-index: -1;
+}
+
+.feature3_img_right img {
+  max-width: 160%; /* Ensures the image doesn’t exceed the container width */
+  width: 160%; /* Adjusts the default width */
+  height: auto; /* Maintains the aspect ratio */
+  margin-left: -300px; 
+  margin-top: -50px;
 }
 
 .feature3_img_right {
@@ -930,6 +953,12 @@ button.submit_btn.submit_btn2 {
   background: #0D47A1;
   border: 1px solid #0D47A1 !important;
 }
+a.submit_btn.submit_btn2 {
+  background: #0D47A1; /* Another blue shade */
+  border: 1px solid #0D47A1 !important;
+  font-size: 20px !important; /* Ensure font size is larger */
+  font-weight: 1500 !important;
+}
 
 /*=====================
 APPS AREA CSS
@@ -960,6 +989,18 @@ APPS AREA CSS
 /*=====================
 COUNTER AREA CSS
 */
+
+.screen_carousel .single_screen img {
+  max-width: 80%;    /* Adjust this value to fit your design */
+  max-height: 500px; /* Limit height to prevent oversized images */
+  width: auto;       /* Maintain aspect ratio */
+  height: auto;
+  margin: 0 auto;    /* Center the image within the carousel */
+  margin-left: 200px;
+}
+
+
+
 .screen_carousel {
   margin-top: 100px;
 }
