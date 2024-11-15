@@ -990,14 +990,6 @@ APPS AREA CSS
 COUNTER AREA CSS
 */
 
-.screen_carousel .single_screen img {
-  max-width: 80%;    /* Adjust this value to fit your design */
-  max-height: 500px; /* Limit height to prevent oversized images */
-  width: auto;       /* Maintain aspect ratio */
-  height: auto;
-  margin: 0 auto;    /* Center the image within the carousel */
-  margin-left: 200px;
-}
 
 
 
